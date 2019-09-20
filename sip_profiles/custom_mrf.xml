@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <include>
-  <profile name="customer_drachtio_mrf">
+  <profile name="custom_drachtio_mrf">
     <domains>
       <domain name="all" alias="true" parse="false"/>
     </domains>
