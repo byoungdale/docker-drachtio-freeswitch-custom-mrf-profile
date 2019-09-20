@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <include>
-  <profile name="drachtio_mrf_3">
+  <profile name="customer_drachtio_mrf">
     <domains>
       <domain name="all" alias="true" parse="false"/>
     </domains>
@@ -14,7 +14,7 @@
       <param name="inbound-late-negotiation" value="true"/>
       <param name="rtp-ip" value="$${local_ip_v4}"/>
       <param name="sip-ip" value="$${local_ip_v4}"/>
-      <param name="sip-port" value="7072"/>
+      <param name="sip-port" value="7070"/>
       <param name="ext-rtp-ip" value="$${ext_rtp_ip}"/>
       <param name="ext-sip-ip" value="$${ext_sip_ip}"/>
       <param name="auth-calls" value="false"/>
